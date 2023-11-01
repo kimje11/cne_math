@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>수학자와 가상대화</title>
+    <link rel="stylesheet" href="style/reset.css" />
+    <link rel="stylesheet" href="style/style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="src/img/favicon.png"
+    />
+  </head>
+  <body>
+    <main id="app">
+      <section class="section-intro">
+        <header id="header">
+          <h1 class="txt-invisible">Portfolio</h1>
+          <nav>
+            <ul class="nav-list">
+              <li><a href="#about" class="list-link">AI로 만든 수학자 동영상</a></li>
+              <li><a href="#project" class="list-link">실시간 채팅</a></li>
+              <li><a href="#contact" class="list-link">제작</a></li>
+            </ul>
+          </nav>
+          <div class="bar-bg">
+            <span class="bar-ing"></span>
+          </div>
+        </header>
+
+        <div class="cont-intro">
+          <a name="info"></a>
+          <img src="src/img/gauss.jpg" alt="프로필 이미지" />
+          <div>
+            <p class="txt-title"></p>
+            <a href="#about" class="btn-more">More</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-about">
+        <a name="about"></a>
+        <h2>AI로 만든 수학자 동영상</h2>
+        <div class="cont-about">
+          <div class="slide-container">
+            <div class="slide-album">
+              <div class="slide-images">
+                <!-- <img src="src/img/gauss.jpg" alt="내 사진" /> -->
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/SWlew-rDYNs" frameborder="0" allowfullscreen></iframe>
+              </div>
+            </div>
+            <div class="info-about">
+              <dl class="txt-about">
+                <div>
+                  <dt>이름</dt>
+                  <dd>가우스</dd>
+                </div>
+                <div>
+                  <dt>출생</dt>
+                  <dd>1777년 4월 30일</dd>
+                </div>
+                <div>
+                  <dt>국적</dt>
+                  <dd>독일</dd>
+                </div>
+                <div>
+                  <dt>명언</dt>
+                  <dd>수학은 과학의 여왕이고, 정수론은 수학의 여왕이다.</dd>
+                </div>
+              </dl>
+            </div>
+           
+          </div>
+          <div class="slide-container">
+            <div class="slide-album">
+              <div class="slide-images">
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/SDgxtIZffP4" frameborder="0" allowfullscreen></iframe>
+              </div>
+            </div>
+            <div class="info-about">
+              <dl class="txt-about">
+                <div>
+                  <dt>이름</dt>
+                  <dd>오일러</dd>
+                </div>
+                <div>
+                  <dt>출생</dt>
+                  <dd>1707년 4월 15일</dd>
+                </div>
+                <div>
+                  <dt>국적</dt>
+                  <dd>스위스</dd>
+                </div>
+                <div>
+                  <dt>명언</dt>
+                  <dd>우리의 판단력보다는 도리어 대수적 계산에 신뢰를 두어야 한다.</dd>
+                </div>
+              </dl>
+            </div>
+           
+          </div>
+          <div class="slide-container">
+            <div class="slide-album">
+              <div class="slide-images">
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/KzqI0WJpEQA" frameborder="0" allowfullscreen></iframe>
+              </div>
+            </div>
+            <div class="info-about">
+              <dl class="txt-about">
+                <div>
+                  <dt>이름</dt>
+                  <dd>피타고라스</dd>
+                </div>
+                <div>
+                  <dt>출생</dt>
+                  <dd>기원전 570년경</dd>
+                </div>
+                <div>
+                  <dt>국적</dt>
+                  <dd>고대 그리스</dd>
+                </div>
+                <div>
+                  <dt>명언</dt>
+                  <dd>만물의 원리는 수이다.</dd>
+                </div>
+              </dl>
+              </div>
+            </div>
+           
+          </div>
+        </div>
+      </section>
+
+      <section class="section-project">
+        <a name="project"></a>
+        <h2>실시간 채팅</h2>
+        <article class="box-project">
+        <iframe src="https://getgpt.app/play/NgnwV2K7AV/iframe" width="100%" height="600" frameBorder="0"></iframe>
+      </article>
+        <!-- <article class="box-project">
+          <div>
+            <img
+              class="img-project"
+              src="src/img/project1.PNG"
+              alt="첫번째 프로젝트 이미지"
+            />
+            <button
+              class="btn-detail"
+              type="button"
+              onclick="location.href='https://hyerrin.github.io/movie_app/';"
+            >
+              자세히 보기
+            </button>
+          </div>
+          <div class="txt-project">
+            <h3>I Love Movie</h3>
+            <dl>
+              <dt>기간</dt>
+              <dd>2022.05</dd>
+              <dt>설명</dt>
+              <dd>영화 장르별 Top5 영화 정보를 제공하는 웹페이지입니다.</dd>
+              <dt>사용 기술</dt>
+              <dd>React</dd>
+            </dl>
+          </div>
+        </article>
+
+        <article class="box-project">
+          <div>
+            <img
+              class="img-project"
+              src="src/img/project2.png"
+              alt="두번째 프로젝트 이미지"
+            />
+            <button
+              class="btn-detail"
+              type="button"
+              onclick="location.href='https://hyerrin.github.io/ToDoList-JS/';"
+            >
+              자세히 보기
+            </button>
+          </div>
+          <div class="txt-project">
+            <h3>오늘 할 일</h3>
+            <dl>
+              <dt>기간</dt>
+              <dd>2022.04</dd>
+              <dt>설명</dt>
+              <dd>오늘 할 일을 기록하고 삭제가 가능한 웹페이지입니다.</dd>
+              <dt>사용 기술</dt>
+              <dd>HTML/CSS, JavaScript</dd>
+            </dl>
+          </div>
+        </article> -->
+      </section>
+
+      <footer id="footer">
+        <a name="contact"></a>
+        <div class="box-footer">
+          <h2>제작</h2>
+          <h2>창의수학지원단</h2>
+        </div>
+      </footer>
+      <div class="modal-background">
+        <div class="modal">
+          <h3>취미</h3>
+          <h4>다이어리 꾸미기</h4>
+          <img src="src/img/img-diary.jpg" alt="다이어리 이미지" />
+          <p>
+            취미는 다이어리꾸미기예요🎀 빈 종이를 저만의 취향으로 가득 채우고,
+            하루를 되돌아보며 일기를 쓰는 것을 좋아해요✍🏻
+          </p>
+          <button type="button" class="btn-close">Close</button>
+        </div>
+      </div>
+      <div class="modal-background">
+        <div class="modal">
+          <h3>성격</h3>
+          <h4>차분하고 꼼꼼해요</h4>
+          <img src="src/img/img-desk.jpg" alt="책상 이미지" />
+          <p>
+            계획을 세우고 실천하는 것을 좋아해요📝 그리고 책임감이 강해 한 번
+            맡은 일은 끝까지 해낸다는 장점을 가지고 있어요💪🏻
+          </p>
+          <button type="button" class="btn-close">Close</button>
+        </div>
+      </div>
+      <button onclick="moveToTop()" class="btn-moveTop"></button>
+      <script src="index.js"></script>
+    </main>
+  </body>
+</html>
