@@ -5,7 +5,7 @@ let moveToTop = function () {
   
   // 타이핑 효과
   const $txt = document.querySelector(".txt-title");
-  const content = "충남 수학교육 한마당에서\n수학자와 대화를 나누다.";
+  const content = "충남 미래교육 특별전에서\n수학자와 대화를 나누다.";
   let contentIndex = 0;
   
   let typing = function () {
